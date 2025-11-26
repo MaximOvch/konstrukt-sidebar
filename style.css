@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    font-size: 28px;
+    color: #000000;
+    line-height: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: calc(100vw - 20%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+aside {
+    width: 385;
+    padding: 0;
+    padding-right: 30px;
+    background-color: white;
+    position: sticky;
+    top: 155px;
+    align-self: flex-start;
+    height: fit-content;
+}
+
+main {
+    display: block;
+
+    margin: 0 auto;
+    margin-top: 92px;
+    flex: 1;
+}
+
+.main-bg-img {
+    width: 760px;
+    height: 760px;
+    background-image: url(images/bg-picture.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    top: 150px;
+    right: 47px;
+}
+
+h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.04em;
+}
+
+p {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 40px;
+}
+
+section {
+    margin-top: 70px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: calc(100vw - 20%);
+    min-width: 1000px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 10%;
+    background-color: white;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    display: flex;
+    gap: 10px;
+}
+
+span.eng {
+    font-size: 18px;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+}
+
+header li,
+header li a {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.logo {
+    margin-left: auto;
+}
+
+ul a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+sup {
+    font-size: 20px;
+    font-family: "Farro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+    position: relative;
+    top: -12px;
+    left: -2px;
+}
+
+.list {
+    padding-left: 0;
+}
+
+.list li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.list li::before {
+    content: "+";
+    font-weight: bold;
+    padding-left: 0;
+    font-size: 28px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+code {
+    background-color: rgb(231, 231, 231);
+    font-size: 28px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+ul.side-bar li a {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.04em;
+}
+
+.side-bar li {
+    list-style-type: none;
+    margin-bottom: 70px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    white-space: nowrap;
+}
